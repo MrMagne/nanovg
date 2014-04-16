@@ -21,7 +21,7 @@
 #	include <GL/glew.h>
 #endif
 #define GLFW_NO_GLU
-#ifndef _WIN32
+#ifdef __APPLE__
 #   define GLFW_INCLUDE_GLCOREARB
 #endif
 #include <GLFW/glfw3.h>
